@@ -5,19 +5,44 @@
 <style>
 #imageSearch
 {
+	position: absolute;
 	text-align: center;
+	top:  350px;
+	right: 600px;
 	
 }
-.link 
+
+.image 
 {
-	text-indent: right
+	position: absolute;
+	top: 8px;
+	right: 200px;
+	
+}
+.advance 
+{
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	
+}
+.searchButton
+{
+	position: absolute;
+	top:350px;
+	right: 560px;
 }
 </style>
 </head>
 <body>
 <h2 id="imageSearch" >GOOGLE SEARCH</h2>
-<a class="link" href="GoogleImageSearch.html">Google Image Search Page</a>
-<!--<a href="GoogleAdvanceSearch.html">Google Advanced Search page</a>-->
+<a class="image" href="GoogleImageSearch.html">Google Image</a>
+<a class="advance" href="GoogleAdvanceSearch.html">Google Advanced Search</a>
+<form  class="searchButton" action="https://google.com">
+	<input type="search" name="search">
+	<input type="submit" name="submit">
+
+</form>
 </body>
 </html>
 
