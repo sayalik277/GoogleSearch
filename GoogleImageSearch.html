@@ -1,6 +1,14 @@
 <html>
 <head>
 <style>
+#imageSearch
+{
+	position: absolute;
+	text-align: center;
+	top:  350px;
+	right: 600px;
+	
+}
 .google 
 {
 	position: absolute;
@@ -8,9 +16,21 @@
 	right: 16px;
 	
 }
+.searchButton
+{
+	position: absolute;
+	top:350px;
+	right: 560px;
+}
 </style>
 </head>
 <body>
-<a class="google" href="https://google.com">Google Search</a>
+<h2 id="imageSearch" >GOOGLE IMAGE</h2>
+<a class="google" href="GooglSearch.html">Google Search</a>
+<form  class="searchButton" action="https://google.com/images">
+	<input type="search" name="q">
+	<input type="submit" name="submit">
+
+</form>
 </body>
 </html>
